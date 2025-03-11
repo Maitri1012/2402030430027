@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            background-color: #A0D198;
+            padding: 30px;
+            text-align: left;
+            width: 90%;
+            margin: 50px auto;
+            border-radius: 10px;
+            color: black;
+        }
+        .container h2 {
+            text-align: center;
+        }
+        .input-group {
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+        .input-group img{
+            height: 20px;
+            width: 20px;
+            margin-right: 10px;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: #E5E5E5;
+        }
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="C:\Users\Maitri\OneDrive\Desktop\Fitness\fitness logo.jpg" alt="Logo" width="50">
+        <a href="#">Home</a>
+        <a href="#">Module</a>
+        <a href="#">Pro Plan</a>
+        <a href="#">Feedback</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+        <a href="#">Login</a>
+        <a href="#">Sign up</a>
+    </div>
+    <div class="container">
+        <h2>Feedback Form</h2>
+        <div class="input-group">
+            <img src="C:\Users\Maitri\Downloads\user.png">
+            <label>Name</label>
+        </div>
+        <input type="text" placeholder="Enter your name">
+        <div class="input-group">
+            <img src="C:\Users\Maitri\OneDrive\Desktop\Fitness\email.png">
+            <label>Email Address</label>
+        </div>
+        <input type="email" placeholder="Enter your email">
+        <div class="input-group">
+            <img src="C:\Users\Maitri\OneDrive\Desktop\Fitness\phone-call.png">
+            <label>Phone no</label>
+        </div>
+        <input type="text" placeholder="Enter your phone number">
+        <div class="input-group">
+            <img src="C:\Users\Maitri\OneDrive\Desktop\Fitness\chat.png">
+            <label>Type Your Message</label>
+        </div>
+        <textarea placeholder="Write your message here..."></textarea>
+    </div>
+</body>
+</html>

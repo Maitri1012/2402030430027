@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            padding: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            background-color: #F2F2F2;
+            padding: 40px;
+            width: 80%;
+            margin: 50px auto;
+            text-align: center;
+            border-radius: 10px;
+            height: 400px;
+        }
+        .input-group {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .input-group img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .input-group i {
+            margin-right: 10px;
+        }
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(172, 169, 169);
+            width: 40%;
+            text-align: center;
+            color: white;
+            font-size: 16px;
+        }
+        .signup-btn {
+            background-color: #F4A988;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 40px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="C:\Users\Maitri\OneDrive\Desktop\Fitness\fitness logo.jpg" alt="Logo" width="50">
+        <a href="#">Home</a>
+        <a href="#">Module</a>
+        <a href="#">Pro Plan</a>
+        <a href="#">Feedback</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+        <a href="#">Login</a>
+        <a href="#">Sign up</a>
+    </div>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <div class="input-group">
+            <img src="C:\Users\Maitri\OneDrive\Desktop\Fitness\gmail.png" alt="Gmail Icon">
+            <label>Email</label>
+        </div>
+        <input type="email" placeholder="">
+        <div class="input-group">
+            <img src="C:\Users\Maitri\OneDrive\Desktop\Fitness\password.png">
+            <label>Password</label>
+            
+        </div>
+        <input type="password" placeholder=""><br>
+        <button class="signup-btn">Sign Up</button>
+    </div>
+</body>
+</html>
